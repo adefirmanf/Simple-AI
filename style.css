@@ -1,0 +1,69 @@
+body{
+	margin-left : 500px;
+	padding: 0;
+}
+
+.window{
+	background-color: black;
+	height: 500px;
+	width: 500px;
+	position: relative;
+}
+.sprite{
+	position: absolute;
+	width: 50px;
+	height: 10px;
+	background-color: red;
+	bottom: 0;
+	/*left: 450px;*/
+	margin-bottom: 30px;
+
+}
+.fruits{
+	background-color: yellow;
+	width: 10px;
+	height: 10px;
+	position: absolute; 
+	left: 490px;
+	/*top: 490px;*/
+}
+.deadzone{
+	width: 100%;
+	height: 20px;
+	background-color: red;
+	position : absolute;
+	bottom: 0
+}
+table{
+	margin-top: 5px;
+	border-collapse: collapse;
+}
+
+th, td{
+	border: 1px solid black;
+	padding: 5px;
+	text-align: left;
+}
+
+.control{
+	margin-top: 10px;
+}
+.log{
+	margin: 0;
+	left: 0;
+	margin-left: 100px;
+	overflow-y: hidden;
+	height: 75px;
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	/*background-color: green;*/
+}
+.fruitsSensor{
+	position: absolute;
+	width: 50px;
+	height: 350px;
+	background-color: rgba(25,25,25,0.7);
+/*	float: left;*/
+	bottom: 0;
+}

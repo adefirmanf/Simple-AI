@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+	<title>Deep Mind</title>
+</head>
+	<div class="log">
+		Information</p>
+		Fruits : <div id="fruitMessage">N/A</div>
+		Sprite : <div id="spriteMessage">N/A</div>
+		Sensor : <div id="sensorMessage">N/A</div>
+		</p>
+		Dead : <div id="fruitDrop" style="color: red;">N/A</div>
+		Catch / Point : <div id="fruitCaught" style="color: green;">N/A</div>
+		</p>
+	</div>
+<body>
+
+	<div class="window">
+		<div class="fruits" id="fruitPos"></div>
+		<div class="sprite" id="spritePos">
+			<div class="fruitsSensor" id="fruitsYSensor"></div>
+			<div class="wallSensorRight"></div>
+			<div class="wallSensorLeft"></div>
+		</div>
+		<div class="deadzone"></div>
+	</div>
+
+	<table>
+		<tr>
+		<th>Try</th>
+		<th>Failed</th>
+		<th>Success</th>
+		</tr>
+		<tr>
+		<td id="try">0</td>
+		<td>10%</td>
+		<td>20%</td>
+		</tr>
+	</table>
+	<div class="control">
+	<button id="start" onclick="start()">Start</button>
+	<button onclick="stop()">Stop</button>
+	</div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
