@@ -82,6 +82,7 @@ function FruitPos(){
 		posFruitsTop = -40
 		posFruitsLeft = Math.floor(Math.random() * (420 - (0)) + (0))
 	}
+
 	// XCalcSensor
 	if(GetYFruits >= YCalcSensor && posFruitsLeft >= GetSensorX && posFruitsLeft <= XCalcSensor){
 	w++
@@ -123,3 +124,26 @@ function Move(direction){
 // X fruits, y fruits = x sprite, y fruits
 
 // Lebih dari sprite dan kurang dari sprite
+
+//ES5
+//ES6
+
+function Fruits(){
+
+}
+
+Fruits.prototype.GetPosition = function(){
+
+}
+
+fruits.prototype.Reset = function(){
+
+}
+
+var Grape = new Fruits()
+Grape.GetPosition()
+Grape.Reset()
+
+var Banana = new Fruits()
+Banana.GetPosition()
+Banana.Reset()
